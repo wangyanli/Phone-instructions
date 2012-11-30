@@ -1,0 +1,22 @@
+﻿*{ margin:0px; padding:0px; list-style-type: none;}
+body{ width:1024px; height:768px;}
+a, img,input{ border: 0;}
+.nav { background:url(../images/background2.png); width:1024px; height:768px;}
+.header { background:url(../images/shap.png); width:100%; height:80px;
+}
+.divbtn { float:left; vertical-align:middle; width:150px; margin-top:28px;}
+.btnback { background:url(../images/back.png) -13px -34px; width:120px; height:47px; margin-left:15px; cursor:pointer; }
+.divsearch { float:right; vertical-align:middle; width:360px; margin-top:35px;}
+.txtsearch { background:url(../images/search.png) -665px -39px; height:35px; line-height:35px; width:300px; padding-left:40px; }
+.txtsearch_hover { background:url(../images/searchfocus.png) -665px -39px; height:35px; line-height:35px; width:300px; padding-left:40px; }
+.titleText { background:url(../images/zhineng.png) -368px -63px; width:285px; height:90px; position:absolute; left:360px; top:55px;}
+
+/* Carousel */
+#carousel1{width: 800px; height: 480px;overflow: hidden;position: relative;margin: 0 auto;}
+#carousel1 img{border: none;width: 230px;height: 214px;border: solid 1px #CCC;}
+#carousel1 #title-text{font-size: 22px;margin: 10px 20px 0 0;padding: 0;text-align: right;}
+#carousel1 #alt-text{font-size: 14px;margin: 5px 20px 0 0;padding: 0;text-align: right;}
+#carousel1 #user-c{padding: 0;position: absolute;right: 15px;bottom: 10px;}
+#carousel1 .carouselLeft, #carousel1 .carouselRight{position: absolute;bottom: 20px;width: 29px;height: 25px;overflow: hidden;cursor: pointer;}
+#carousel1 .carouselLeft{right: 20px;background: url(images/button-right.png) no-repeat;}
+#carousel1 .carouselRight{right: 48px;background: url(images/button-left.png) no-repeat;}
