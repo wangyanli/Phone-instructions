@@ -4,6 +4,7 @@ a, img,input{ border: 0;}
 .nav { background:url(../images/background2.png); width:1024px; height:768px;}
 .header { background:url(../images/shap.png); width:100%; height:80px;
 }
+.kong{ width:100%; height:80px;}
 .divbtn { float:left; vertical-align:middle; width:150px; margin-top:28px;}
 .btnback { background:url(../images/back.png) -13px -34px; width:120px; height:47px; margin-left:15px; cursor:pointer; }
 .divsearch { float:right; vertical-align:middle; width:360px; margin-top:35px;}

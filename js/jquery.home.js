@@ -55,6 +55,17 @@
 		}
 	}	
 	
+		function shows2(i,a){
+		
+		if (i.style.display == "none") {
+		   i.style.display = "";
+		}else{
+		   i.style.display = "none";
+		}
+	}	
+	
+		
+	
 		
 	//弹出header层		
 		var id=0  
