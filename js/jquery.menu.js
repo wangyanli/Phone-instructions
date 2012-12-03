@@ -39,13 +39,16 @@
                     $("#menu_2").animate({ "margin-left": "-180px" }, 0, function () { $(this).animate({ "margin-left": "80px" }, 400) });
                 }
                 $("#menu_2>ul>li").hide().eq(_index).show();
+				$(".mike").hide();
 
                 if (_index == 5) {
-                    $(".explain").html("4英寸Super Clear LCD (可丽屏)，极致纤薄清晰绚丽。Android™ 2.2智能操作系统，尽享万千热门应用。1GHz 高速处理器，畅快体验淋漓尽致。");
+					$(".mike").show();
+                    $(".explain").show().html("4英寸Super Clear LCD (可丽屏)，极致纤薄清晰绚丽。Android™ 2.2智能操作系统，尽享万千热门应用。1GHz 高速处理器，畅快体验淋漓尽致。");
                 }
                 else
-                { $(".explain").html(""); }
+                { $(".explain").hide().html(""); }
                 $("#video").html("");
+
 
                 $(this).parent().find("span").removeClass("span_color");  //字体颜色
                 $(this).parent().find("div").removeClass("display_block"); //箭头
@@ -68,12 +71,13 @@
             var explains = ["设置、连接并查找局域网络", "设置、连接并查找局域网络", "打开和关闭飞行模式", "设置闹钟", "更改桌面背景（墙纸）", "设置、调整系统显示时间和日期", "选择和设置系统显示语言"];
             $("#menu_3>ul>li li").bind("click", function () {
                 var _index = $("#menu_3>ul>li li").index(this);
-                $(".explain").html(explains[_index]);
+                $(".explain").show().html(explains[_index]);
 
                 $("#video").html("<video id='myVideo1' height='400' width='240' autoplay='autoplay'>" +
                                     "<source src='video/" + vedios[_index] + "' type='video/mp4' />" +
                                     "<p>Your browser does not support the video tag.</p>" +
 				                "</video>");
+								$(".mike").show();
             });
         });
 
@@ -107,3 +111,5 @@
             }
             return null;
         }
+
+ 

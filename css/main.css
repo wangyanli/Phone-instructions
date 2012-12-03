@@ -45,9 +45,8 @@ a, img,input{ border: 0;}
 #menu_3>ul>li ul li { width:300px; height:50px; line-height:50px; padding-left:40px; font-size:32px; background:url(../images/bullet.png) no-repeat 10px 18px;}
 #menu_3>ul>li ul li a { color:White; text-decoration:none;}
 
-#video{ background:url(../images/sj.png) 0px no-repeat; width:250px; height:400px; float:left; overflow:hidden; margin-top:5px; margin-left:40px;}
+#video{ background:url(../images/sj.png) 0px no-repeat; width:250px; height:400px; float:left; overflow:hidden; margin-bottom:5px; margin-left:40px;}
 
-.content_right_bottom { width:770px; height:370px; margin:0 auto; overflow:hidden; }
-.wenzi{ background:url(../images/wenzijieshao.png) no-repeat; width:300px; height:50px; float:left; margin-left:200px; margin-top:-398px;}
-.mike { width:100px; height:370px; margin-left:80px; margin-top:20px; float:left; background:url(../images/stroke.png) no-repeat;}
-.explain { width:500px; height:370px; padding:40px 30px 0px 20px; margin-top:40px; line-height:60px; font-size:18px; color:White; float:left; background:url(../images/shuomingneirong.png) no-repeat; }
+.content_right_bottom { width:770px; height:350px; margin:0 auto; overflow:hidden; }
+.mike { width:100px; height:350px; margin-left:80px; margin-top:20px; float:left; background:url(../images/stroke.png) no-repeat; display:none;}
+.explain { width:500px; height:350px; padding:40px 30px 0px 20px; margin-top:40px; line-height:60px; font-size:22px; color:White; float:left; background:url(../images/shuomingneirong.png) no-repeat; display:none; }
