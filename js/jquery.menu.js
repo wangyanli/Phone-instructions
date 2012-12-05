@@ -1,4 +1,11 @@
- var startTop = 0;
+			
+	function initialize() {
+		var latlng = new google.maps.LatLng(30.82975035644652, 121.51885947265623);
+		var myOptions = { zoom: 10, center: latlng, mapTypeId: google.maps.MapTypeId.ROADMAP };
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+		}		
+	
+		var startTop = 0;
         var isMove = false;
         var li;
         $(document).ready(function () {
@@ -39,8 +46,20 @@
                     $("#menu_2").animate({ "margin-left": "-180px" }, 0, function () { $(this).animate({ "margin-left": "80px" }, 400) });
                 }
                 $("#menu_2>ul>li").hide().eq(_index).show();
+				
 				$(".mike").hide();
-
+				
+                if (_index == 4) {
+                    $("#div_right_menu").hide();
+                    $("#map_canvas").show();
+                    initialize();
+                }
+                else {
+                    $("#div_right_menu").show();
+                    $("#map_canvas").hide();
+                }
+				
+				
                 if (_index == 5) {
 					$(".mike").show();
                     $(".explain").show().html("4英寸Super Clear LCD (可丽屏)，极致纤薄清晰绚丽。Android™ 2.2智能操作系统，尽享万千热门应用。1GHz 高速处理器，畅快体验淋漓尽致。");

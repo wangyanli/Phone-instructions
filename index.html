@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
 <head>
     <title></title>
     <link href="css/home.css" rel="stylesheet" type="text/css" />
@@ -7,33 +7,6 @@
     <script src="js/CloudCarousel.1.0.5.js" type="text/javascript"></script>
     <script src="js/jquery.mousewheel.js" type="text/javascript"></script>
     <script src="js/jquery.home.js" type="text/javascript"></script>
-    <script src="js/jquery.mobile-1.2.0.min.js" type="text/javascript"></script>
-        <script type="text/javascript">
-			
-				$(".carousel1").bind("swipeleft",
-	
-                function () {
-				 $.mobile.allowCrossDomainPages = true;
-alert(1);
-                });
-				
-				
-				$(".carousel1").bind("swiperight",
-                function () {
-				 $.mobile.allowCrossDomainPages = true;
-
-                });
-				$(".carousel1").bind("swiperight",
-	
-                function () {
-				 $.mobile.allowCrossDomainPages = true;
-$(".carousel1").click();
-
-                });
-
-
-	
-	</script>
     
 </head>
 <body onClick="shows(Conts)">
@@ -41,13 +14,14 @@ $(".carousel1").click();
         <!--头部-->
         <div class="header" id="Conts" style="display:none">    
             <div class="divsearch" >
-                <input type="text" class="txtsearch" /></div>
+                <input type="text" class="txtsearch" />
+            </div>
         </div>
         <!--中间文字-->
         <div class="titleText">
         </div>
         <div class="kong" id="Conts2" style="display:block"></div>
-        <!--旋转广告-->
+        <!--内容-->
         <div id="carousel1">
             <a href="menu.htm" title="" data-transition="pop">
                 <img class="cloudcarousel" alt="" title="" src="images/093ZMX4-2.jpg"/></a>
